@@ -2,12 +2,18 @@
     <head>
         <meta charset="utf8">
         <title>Register</title>
+        <link href="CSS\reset.css" type="text/css" rel="stylesheet">
+        <link href="CSS\register.css" type="text/css" rel="stylesheet">
+
     </head>
     <body>
-        <header><nav><a href="index.html">主页</a></nav></header>
-        <h1>创建账户</h1>
+    <header>
+            <nav><a href="index.html">主页</a></nav>
+    </header>
+        <h1>创建帐户</h1>
         <section>
             <form action="#" method="POST">
+                <ul>
                 <p>
                     用户名<br>
                     <input type="text" name="userid" pattern="[0-9|A-Z|a-z|_]{1,}" title="大小写字母、数字或下划线" required/>
@@ -117,10 +123,12 @@
                     请回答问题（假装自己是验证码）<br>
                     FDU18ss的学生学号前8位是什么？<br>
                     <input type="text" name="captcha" required>
+                    <input type="button" value="刷新">
                 </p>    
                 <p>
                     <input type="submit" value="提交" name="submit"/>
                 </p>
+                </ul>
             </form>
         </section>
     </body>
