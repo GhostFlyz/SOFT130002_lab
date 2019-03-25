@@ -13,6 +13,21 @@ header {
     text-align: center;
 }
 
+a {
+    color: #b8b6b4;
+    text-decoration:none;
+    font: 1.15em sans-serif
+}
+
+a:hover{
+    color: #87bff2;
+}
+
+nav a {
+    color: #b8b6b4;
+    padding-inline-start: 3em;
+}
+
 ul {
     margin: auto 4em;
 }

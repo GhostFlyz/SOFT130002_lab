@@ -130,10 +130,7 @@ section blockquote {
 
 p {
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin: 1em !important;
     font: 1.15em sans-serif;
 }
 
