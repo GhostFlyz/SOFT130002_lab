@@ -40,12 +40,21 @@ ul {
 h1 {
     display: block;
     font-size: 2em;
-    margin: 16px 80px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
     font-weight: bold;
+    margin: 0.5em 2.5em
 }
 
 p {
-    margin: 16px 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 2%;
 }
 
 input, textarea {
@@ -61,6 +70,7 @@ input, textarea {
 textarea{
     width: 50%;
     height: 35em;
+    margin-inline-start: 2%;
 }
 
 select {
@@ -77,6 +87,7 @@ input[type="checkbox"]{
 input[type="radio"] {
     width: 2em;
     -webkit-appearance: radio;
+    margin-inline-start: 2%;
 }
 
 input[type="button"],input[type="submit"]  {

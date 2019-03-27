@@ -19,6 +19,16 @@ nav {
     margin: auto 3em;
 }
 
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
 li {
     display: inline-block;
 }
@@ -70,8 +80,11 @@ aside li {
 .title, h2 {
     color: #ebebeb;
     display: block;
-    font-size: 1.7em;
-    margin: 0.83em;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
     font-weight: bold;
 }
 
@@ -124,7 +137,10 @@ section blockquote {
 
 p {
     display: block;
-    margin: 1em !important;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
     font: 1.15em sans-serif;
 }
 
@@ -186,7 +202,7 @@ h4 small {
 
 .comment li {
     display: block;
-    margin: 1.5em 2em;
+    margin: 1.5em 0;
 }
 
 .active {
