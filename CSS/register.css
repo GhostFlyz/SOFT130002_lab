@@ -11,12 +11,18 @@ header {
     background-color: #171a21;
     display: flex;
     text-align: center;
+    font: 1.05em sans-serif;
+    min-height: 55px;
+}
+
+nav {
+    margin: auto 3em;
+    padding: 0 1em;
 }
 
 a {
     color: #b8b6b4;
     text-decoration:none;
-    font: 1.15em sans-serif
 }
 
 a:hover{
@@ -25,15 +31,10 @@ a:hover{
 
 nav a {
     color: #b8b6b4;
-    padding-inline-start: 3em;
 }
 
 ul {
     margin: auto 4em;
-}
-
-nav {
-    margin: auto 3em;
 }
 
 h1 {
