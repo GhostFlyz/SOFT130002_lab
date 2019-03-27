@@ -79,7 +79,6 @@ aside li {
 
 .title, h2 {
     color: #ebebeb;
-    display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
@@ -90,17 +89,12 @@ aside li {
 
 .title {
     margin: 1em 5%;
-    display: inline;
     display: flex;
     text-align: center;
 }
 
 .title img {
     border: #b8b6b4 solid 2px;
-}
-
-div,section {
-    display: block;
 }
 
 .title div {
